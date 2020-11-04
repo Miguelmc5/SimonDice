@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Simon</string>
+    <string name="title">App Simon</string>
+    <string name="startButton">Empezar</string>
+    <string name="resetButton">Reiniciar</string>
+    <string name="bRed">Rojo</string>
+    <string name="bBlue">Azul</string>
+    <string name="bGreen">Verde</string>
+    <string name="bYellow">Amarillo</string>
+</resources>
