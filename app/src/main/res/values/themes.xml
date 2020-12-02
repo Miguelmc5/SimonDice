@@ -9,17 +9,5 @@
         <item name="android:textColor">@color/black</item>
         <!-- Customize your theme here. -->    
     </style>
-    
-    <style name="Button.Rojo" parent="Theme.MaterialComponents">
-        <item name="colorPrimary">@color/red</item>
-    </style>
-    <style name="Button.Azul" parent="Theme.MaterialComponents">
-        <item name="colorPrimary">@color/blue</item>
-    </style>
-    <style name="Button.Verde" parent="Theme.MaterialComponents">
-        <item name="colorPrimary">@color/green</item>
-    </style>
-    <style name="Button.Amarillo" parent="Theme.MaterialComponents">
-        <item name="colorPrimary">@color/yellow</item>
-    </style>
+
 </resources>

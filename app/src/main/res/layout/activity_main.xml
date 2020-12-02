@@ -12,7 +12,7 @@
         android:layout_width="155dp"
         android:layout_height="170dp"
         android:text="@string/bYellow"
-        android:theme="@style/Button.Amarillo"
+        android:backgroundTint="@color/btnamarillo_background_color"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.06"
@@ -25,7 +25,7 @@
         android:layout_width="155dp"
         android:layout_height="170dp"
         android:text="@string/bGreen"
-        android:theme="@style/Button.Verde"
+        android:backgroundTint="@color/btnverde_background_color"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.94"
@@ -38,7 +38,7 @@
         android:layout_width="155dp"
         android:layout_height="170dp"
         android:text="@string/bBlue"
-        android:theme="@style/Button.Azul"
+        android:backgroundTint="@color/btnazul_background_color"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.94"
@@ -55,12 +55,12 @@
         android:text="@string/startButton"
         app:icon="@drawable/baseline_local_fire_department_black_18dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/resetButton"
+        app:layout_constraintEnd_toStartOf="@+id/checkButton"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/resetButton"
+        android:id="@+id/checkButton"
         style="Widget.MaterialComponents.Button.TextButton.Icon"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -78,7 +78,7 @@
         android:layout_width="155dp"
         android:layout_height="170dp"
         android:text="@string/bRed"
-        android:theme="@style/Button.Rojo"
+        android:backgroundTint="@color/btnrojo_background_color"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.06"
@@ -87,5 +87,16 @@
         app:layout_constraintVertical_bias="0.03"
         app:layout_goneMarginBottom="20dp"
         app:layout_goneMarginTop="20dp" />
+
+    <TextView
+        android:id="@+id/rondas"
+        android:layout_width="318dp"
+        android:layout_height="131dp"
+        android:text="@string/rondas"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.799" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
